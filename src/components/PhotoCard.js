@@ -23,7 +23,7 @@ export default function PhotoCard(props) {
             <hr />
             <CardText>{props.explanation}</CardText>
             <hr />
-            <CardText>{props.hdurl}</CardText>
+            <img src={`${props.hdurl}`}/>
           </CardBody>
         </Card>
       </Col>
